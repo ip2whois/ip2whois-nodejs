@@ -1,0 +1,34 @@
+{
+	"name": "ip2whois-nodejs",
+	"version": "1.0.0",
+	"description": "IP2WHOIS component",
+	"keywords": [
+		"ip2whois",
+		"whois"
+	],
+	"homepage": "http://www.ip2whois.com/",
+	"author": {
+		"name": "ip2whois.com",
+		"email": "support@ip2whois.com",
+		"url": "http://www.ip2whois.com/"
+	},
+	"files": [
+		"src/ip2whois.js",
+		"src/test.js",
+		"src/ip2whois.d.ts",
+		"./README.md"
+	],
+	"main": "src/ip2whois.js",
+	"types": "src/ip2whois.d.ts",
+	"license": "MIT",
+	"dependencies": {
+		"punycode": "^2.1.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ip2whois/ip2whois-nodejs.git"
+	},
+	"devDependencies": {
+		"prettier": "2.4.0"
+	}
+}
