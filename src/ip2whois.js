@@ -1,7 +1,6 @@
 var net = require("net");
 var https = require("https");
 const punycode = require("punycode/"); // to import userland modules rather than core modules
-const url = require("url");
 
 const VERSION = "1.0.0";
 const BASE_URL = "api.ip2whois.com/v2";
@@ -48,9 +47,7 @@ class IP2WhoisApi {
 
   // Convert normal text to Punycode
   getPunycode(domain) {
-    // return punycode.encode(domain); // incorrect result so we'll use URL instead
-    let myURL = new URL('https://' + domain);
-    return myURL.host;
+    return punycode.toASCII(domain);
   }
 
   // Convert Punycode to normal text
