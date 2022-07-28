@@ -2,7 +2,7 @@ var net = require("net");
 var https = require("https");
 const punycode = require("punycode/"); // to import userland modules rather than core modules
 
-const VERSION = "1.0.1";
+const VERSION = "1.0.2";
 const BASE_URL = "api.ip2whois.com/v2";
 
 class IP2WhoisApi {
