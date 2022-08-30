@@ -19,3 +19,9 @@ console.log(result);
 
 result = ip2whois.getNormalText('xn--tst-qla.de');
 console.log(result);
+
+result = ip2whois.getDomainName('https://www.example.com/exe');
+console.log(result);
+
+result = ip2whois.getDomainExtension('https://www.example.com/exe');
+console.log(result);

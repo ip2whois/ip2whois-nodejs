@@ -59,6 +59,25 @@ let result = ip2whois.getNormalText('xn--tst-qla.de');
 console.log(result);
 ```
 
+### Return the Domain Name from an URL
+```javascript
+const {IP2WhoisApi} = require("ip2whois-nodejs");
+
+let ip2whois = new IP2WhoisApi();
+
+let result = ip2whois.getDomainName('https://www.example.com/exe');
+console.log(result);
+```
+
+### Return the Domain Extension from an URL/domain
+```javascript
+const {IP2WhoisApi} = require("ip2whois-nodejs");
+
+let ip2whois = new IP2WhoisApi();
+
+let result = ip2whois.getDomainExtension('https://www.example.com/exe');
+console.log(result);
+```
 
 Response Parameter
 ==================

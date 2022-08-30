@@ -26,5 +26,19 @@ export class IP2WhoisApi {
      * @returns Domain name for the Punycode.
      */
     getNormalText(domain: string): string;
+    /**
+     * Returns the domain name from an URL.
+     *
+     * @param fullURL The URL to extract the domain name.
+     * @returns Domain name for the URL.
+     */
+    getDomainName(fullURL: string): string;
+    /**
+     * Returns the domain extension from an URL/domain.
+     *
+     * @param str The URL/domain to extract the domain extension.
+     * @returns Domain extension for the URL/domain.
+     */
+    getDomainExtension(str: string): string;
     #private;
 }
