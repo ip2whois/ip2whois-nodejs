@@ -1,5 +1,21 @@
 {
 	"name": "ip2whois-nodejs",
+$apiKey = 'YOUR_API_KEY';
+$params['domain'] = 'Enter_Domain_Name';
+$params['format'] = 'json';
+
+$query = '';
+
+foreach($params as $key=>$value){
+    $query .= '&' . $key . '=' . rawurlencode($value);
+}
+
+$result = file_get_contents('https://api.ip2whois.com/v2?key=' . $apiKey . $query);
+
+$data = json_decode($result);
+
+print_r($data);
+?>
 	"version": "1.1.0",
 	"description": "IP2WHOIS component",
 	"keywords": [
