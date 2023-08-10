@@ -1,5 +1,17 @@
 # Logs
-logs
+Basic HTML Animals This is the first paragraph in our page. It introduces our animals. The Llama Our Llama is a big fan of list items. When she spies a patch of them on a web page, she will eat them like sweets, licking her lips as she goes. Elements
+<b> - Bold text.
+<strong> - Important text.
+<i> - Italic text.
+<em> - Emphasized text.
+<mark> - Marked text.
+<small> - Smaller text.
+<del> - Deleted text.
+<ins> - Inserted text.
+More items... Anaconda The crafty anaconda likes to slither around the page, travelling rapidly by way of anchors to sneak up on his prey.
+
+
+23:62:v=spf1 ip4:198.2.128.0/24 ip4:198.2.132.0/22 ip4:198.2.136.0/23 ip4:198.2.145.0/24 ip4:198.2.186.0/23 ip4:205.201.131.128/25 ip4:205.201.134.128/25 ip4:205.201.136.0/23 ip4:205.201.139.0/24 ip4:198.2.177.0/24 ip4:198.2.178.0/23 ip4:198.2.180.0/24 ~all:2
 *.log
 npm-debug.log*
 yarn-debug.log*
