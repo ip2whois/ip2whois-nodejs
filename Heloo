@@ -1,0 +1,38 @@
+ubmit button: 
+Tables
+
+The following table has a caption. The first row and the first column contain table header cells (th elements) only; other cells are data cells (td elements), with align="right" attributes:
+
+Sample table: Areas of the Nordic countries, in sq km
+Country	Total area	Land area
+Denmark	43,070	42,370
+Finland	337,030	305,470
+Iceland	103,000	100,250
+Norway	324,220	307,860
+Sweden	449,964	410,928
+Character test
+
+The following table has some sample characters with annotations. If the browser’s default font does not contain all of them, they may get displayed using backup fonts. This may cause stylistic differences, but it should not prevent the characters from being displayed at all.
+
+Char.	Explanation	Notes
+ê	e with circumflex	Latin 1 character, should be ok
+—	em dash	Windows Latin 1 character, should be ok, too
+Ā	A with macron (line above)	Latin Extended-A character, not present in all fonts
+Ω	capital omega	A Greek letter
+−	minus sign	Unicode minus
+⌀	diameter sign	relatively rare in fonts
+Hyphenation
+
+In the following, a width setting should cause some hyphenation, depending on support to various methods of hyphenation.
+
+CSS-based hyphenation
+
+Until recently the great majority of naturalists believed that species were immutable productions, and had been separately created. This view has been ably maintained by many authors.
+
+JavaScript-driven hyphenation
+
+Until re­cently the great ma­jor­ity of nat­u­ral­ists be­lieved that species were im­mutable pro­duc­tions, and had been sep­a­rately cre­ated. This view has been ably main­tained by many au­thors.
+
+Explicit hyphenation hints (soft hyphens)
+
+Un­til re­cent­ly the great ma­jor­i­ty of nat­u­ral­ists be­lieved that spe­cies were im­mu­ta­ble pro­duc­tions, and had been 
