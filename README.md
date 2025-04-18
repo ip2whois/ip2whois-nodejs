@@ -1,6 +1,8 @@
 [![npm](https://img.shields.io/npm/v/ip2whois-nodejs.svg)](http://npm.im/ip2whois-nodejs)
 [![npm](https://img.shields.io/npm/dm/ip2whois-nodejs.svg)](http://npm.im/ip2whois-nodejs)
 
+**_Please note that this GitHub project is no longer being maintained and has been migrated to a new repository. We recommend that you use the [IP2Location.io Node.js SDK](https://github.com/ip2location/ip2location-io-nodejs) going forward._**
+
 IP2WHOIS Node.js Module
 =======================
 
